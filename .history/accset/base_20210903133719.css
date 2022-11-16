@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color:#a3a3a3;
+    --white-color:#fff;
+    --black-color:#000;
+ 
+   
+}
+.header__subnav{
+    position: absolute;
+    width: 190px;
+    background-color: #ba71da;
+    list-style: none;
+    background-color:#f9f9f9;
+    box-shadow:#f1f1f1 0px 2px 5px 0px;
+    /* padding: 15px 25px; */
+    /* border-top: 1px solid red; */
+     /* height: 47px; */
+     z-index: 1;
+     border-radius: 3px;
+     /* display: none; */
+     display: none;
+     /* overflow: hidden; */
+    
+}
+.header__subnav-link{
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--primary-color);
+    letter-spacing: 2px;    
+    /* padding: 15px 25px 16px 25px; */
+    /* display: block; */
+    /* height: 47px; */
+    display: block;
+    /* overflow: hidden; */    
+    position: relative;
+}
+.header__subnav-list:first-child{
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border: none;
+
+}
+.header__subnav-list:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.header__subnav-list{
+ /* padding: 15px 25px 16px 25px; */
+ /* height: 47px; */
+ padding: 7px 25px 8px 25px;
+ border-top: 1px solid var(--primary-color);
+ /* position: relative; */
+ 
+ 
+}
+.header__subnav::after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    width: 100%;
+    height: 20px;
+    /* background-color: rgb(128, 115, 115); */
+}
+/* .header__subnav-list:first-child{
+    border: none;
+} */
+.header__subnav-list span{
+    float: right;  
+    color: var(--primary-color);
+    position: relative;
+   top:-26px;
+}
+.red{
+    background-color:#f76570;
+    color: var(--white-color) !important;
+    letter-spacing: 4px; 
+    margin-top: 5px;
+padding: 3px 5px;
+border-radius: 3px;
+line-height: 10px;
+/* position: relative;
+left: 0; */
+
+
+/* transform: translateY calc(100% - 1000px); */
+
+
+}
+.header__subnav-list:hover{
+/* opacity: 0.6; */
+background-color: #fdf6f6;
+
+}
+.mf{
+    margin-left: 200px;
+    top: 0px;
+    position: absolute;
+}
+/* nav-tow */
+.header__subnav-tow{
+    position: absolute;
+    width: 190px;
+    background-color: #ba71da;
+    list-style: none;
+    background-color:#f9f9f9;
+    box-shadow:#f1f1f1 0px 2px 5px 0px;
+    /* padding: 15px 25px; */
+    /* border-top: 1px solid red; */
+     /* height: 47px; */
+     z-index: 1;
+     border-radius: 3px;
+     /* display: none; */
+     display: none;
+     /* overflow: hidden; */
+}
+
+.header__subnav-list-tow{
+
+}
+.header__subnav-link-tow{
+
+}
+.header__subnav-tow{
+
+}
